@@ -1,0 +1,72 @@
+---------------------------------------------------------------------
+File  : 'plugins.txt' - Info about IrfanView PlugIns
+Author: Irfan Skiljan
+E-Mail: irfan@linux.edvz.tuwien.ac.at
+WWW   : http://www.irfanview.com
+        http://stud1.tuwien.ac.at/~e9227474/
+---------------------------------------------------------------------
+
+
+Since the version 3.07, IrfanView can use plugins. Please use always
+the LATEST IrfanView version and the LATEST plugin version ...
+
+
+- How to install IrfanView plugins?
+  
+  1) Download the plugin
+  2) Find your IrfanView directory
+  3) Create in the IrfanView directory a new directory called "PlugIns"
+  4) Unzip/Copy the PlugIn-DLL into the "PlugIns" directory
+    
+
+Available plugins:
+
+
+1) MP3 - plugin: allows IrfanView to play MP3/MP2/MP1 files.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/mp3.zip
+
+2) FPX - plugin: allows IrfanView to read FlashPix files.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/flashpix.zip
+
+3) LWF - plugin: allows IrfanView to read/write LuRaWave LWF files.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/lwf.zip
+
+4) PCD - plugin: allows IrfanView to read Kodak PhotoCD files.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/photocd.zip
+
+5) QUICKTIME - plugin: allows IrfanView to play Apple Quicktime movies.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/quicktime.zip
+
+6) KDC - plugin: allows IrfanView to read Kodak Digital Camera files.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/kdc120.zip
+
+7) Filter Factory - plugin: allows IrfanView to use Filter Factory 8BF 
+   files (Photoshop plugins and filters).
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/ffactory.zip
+
+8) Formats - plugin: allows IrfanView to read some rare image formats.
+   Current formats: BioRAD, Dicom/ACR, Mosaic, XBM, XPM, GEM-IMG, SGI, WBMP, EXIF-JPG.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/formats.zip
+
+9) FLASH - plugin: allows IrfanView to read Flash/Shockwave format.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/flash.zip
+
+10) DJVU - plugin: allows IrfanView to read AT&T DJVU format.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/djvu.zip
+
+11) RA-Player - plugin: allows IrfanView to play Real Audio RA files.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/ra_player.zip
+
+12) Filters Unlimited - plugin: allows IrfanView to use Filters Unlimited  
+   files (Photoshop plugins and filters).
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/funlimited.zip
+   Check 'www.icnet.de' for full info.
+
+13) NCC - plugin: allows IrfanView to display NCC information from JPG, GIF and PNG files.
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/ncc.zip
+   Check 'www.netcybercards.com' for full info.
+
+
+PS.
+You can download all plugins as one large ZIP:
+   Download: http://stud1.tuwien.ac.at/~e9227474/plugins/all_plugins.zip
