@@ -1,0 +1,38 @@
+---------------------------------------------------------------------
+File  : 'about.txt' - Info about IrfanView
+Author: Irfan Skiljan
+E-Mail: irfan@linux.edvz.tuwien.ac.at
+WWW   : http://www.irfanview.com
+        http://stud1.tuwien.ac.at/~e9227474/
+---------------------------------------------------------------------
+
+What is IrfanView ?
+
+IrfanView is a fast FREEWARE image viewer/converter for Win9x/NT
+and Windows 2000. 
+
+Supported file formats:
+AIF, ANI/CUR, AU/SND, AVI, BMP/DIB, CAM (Casio), CLP, DAT (VideoCD),
+Dicom/ACR, DJVU, EMF/WMF, EPS, FlashPix (FPX), G3, GIF, ICO/ICL/EXE/DLL,
+IFF/LBM, IMG (GEM), JPG/JPEG, KDC, LWF, MID/RMI, MOV, MP3, MPG/MPEG,
+PBM/PGM/PPM, PCX/DCX, PhotoCD, PNG, PSD, PSP, RAS/SUN, RealAudio (RA),
+SFW, SGI/RGB, SWF (Flash/Shockwave), TGA, TIF/TIFF, WAV, WBMP, XBM, XPM.
+ 
+Support for Apple QuickTime: allows IrfanView to read following
+formats: MOV, QTIF, Mac PICT, FLI/FLC.
+
+Some features of IrfanView:
+Thumbnail option, preview option, drag & drop support, slideshow,
+fast directory view (fast moving through directory), batch conversion, 
+audio CD player, print option, change color depth, scan support, 
+cut/crop, effects (sharpen, blur, Photoshop filter factory etc.),
+capturing, extract icons from EXE/DLLs, many hotkeys, many
+command line options ...
+
+The first graphic viewer worldwide with Animated-GIF support !
+The first graphic viewer worldwide with Multiple-ICO support !
+One of the first graphic viewers with Multipage-TIFF support ! 
+
+FREEWARE for use at home !
+
+Enjoy ! :-)

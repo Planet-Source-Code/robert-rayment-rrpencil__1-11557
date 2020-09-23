@@ -1,0 +1,73 @@
+---------------------------------------------------------------------------------
+File  : 'options.txt' - Command line options for IrfanView
+Author: Irfan Skiljan
+E-Mail: irfan@linux.edvz.tuwien.ac.at
+WWW   : http://www.irfanview.com
+        http://stud1.tuwien.ac.at/~e9227474/
+---------------------------------------------------------------------------------
+
+List of all command line options supported in IrfanView:
+--------------------------------------------------------
+
+  /one               - force "only one instance"
+  /fs                - force Full Screen
+  /bf                - force Best Fit to desktop
+  /title=text        - set window title to "text"
+  /pos=(x,y)         - move IrfanView window to x,y
+  /convert=filename  - convert input file to "filename" and close IrfanView
+  /slideshow=txtfile - play slideshow with the files from "txtfile"
+  /thumbs            - force thumbnails
+  /killmesoftly      - close all IrfanView instances
+  /closeslideshow    - close slideshow and IrfanView after the last image
+  /page=X            - open page number X from a multipage input image
+  /crop=(x,y,w,h)    - crop input image: x-start, y-start, width, height
+  /print             - print input image to default printer and close IrfanView
+  /resize=(w,h)      - resize input image to w (width) and h (height)
+
+Note:
+- Only lower case options are supported !
+
+Examples: 
+   i_view32.exe test.bmp /BF                 = incorrect
+   i_view32.exe test.bmp /bf /title=My PIC   = correct
+
+Example for conversion: 
+  i_view32.exe c:\test.bmp /convert=c:\giftest.gif
+  => Convert file: 'c:\test.bmp' to 'c:\giftest.gif' without GUI :-)
+  (Note: supported are all IrfanView read/save formats except: 
+         AVI,MOV,MPG,WAV,MID,AIF,SND)
+
+Example for slideshow: 
+  i_view32.exe /slideshow=c:\mypics.txt
+  (Note: The file 'c:\mypics.txt' contains, in each line, a name of the image,
+         including the full path. A hard return is needed at the end of each
+         line)
+
+Example for closeslideshow: 
+  i_view32.exe /slideshow=c:\mypics.txt /closeslideshow
+  => IrfanView will be closed after the last image from 'c:\mypics.txt'
+
+Example for thumbnails: 
+  i_view32.exe c:\test\image1.jpg /thumbs
+  => open 'image1.jpg' and display thumbnails from directory 'c:\test'
+
+Example for close: 
+  i_view32.exe /killmesoftly
+  => close IrfanView and terminate all instances
+
+Example for page:
+  i_view32.exe c:\test.tif /page=3
+  => Open page number 3 from the multipage image 'c:\test.tif'
+
+Example for crop:
+  i_view32 c:\test.jpg /crop=(10,10,300,300)
+  => Open 'c:\test.jpg' and crop: x-start=10, y-start=10, width=300, height=300
+
+Example for print:
+  i_view32.exe c:\test.jpg /print
+  => Open 'c:\test.jpg', print the image to default printer and close IrfanView
+
+Example for resize:
+  i_view32 c:\test.jpg /resize=(300,300)
+  => Open 'c:\test.jpg' and resize: width=300, height=300
+

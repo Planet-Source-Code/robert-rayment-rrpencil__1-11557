@@ -1,0 +1,432 @@
+RRPencil  Help
+
+by Robert Rayment
+
+CONTENTS	{Click on # item}
+
+#1. Overview
+#2.  Tools
+#	2.1    Brush
+#	2.2    AirBrush
+#	2.3    Line, PolyLine, Spline
+#	2.4    Rectangle
+#	2.5    Cirlipse, Cone, Tube,  Arch
+#	2.6    T-piece
+#	2.7    Text
+#	2.8    Fill
+#	2.9    Rubber
+#	2.10  Active rectangle
+#	2.11  Smudge
+#	2.12  Move, Copy & Reflect
+#	2.13  Resize, Perspective Shear, Rotate
+#	2.14  Tile
+#3.  Operations
+#	3.1   Undo last
+#	3.2   Clear picture
+#	3.3   Hair lines, Perspective lines & points
+#	3.4   AirBrush bricks & tiles
+#	3.5   Zoom
+#	3.6   Scroller, Canvas Size
+#	3.7   Reset
+#4.  Loading & Saving
+#	4.1  Load  or  Add a picture file
+#	4.2  Save as BMP or JPG
+#	4.3  Save rectangle as BMP
+#5.  Printing
+#6.  Colors
+#7.  Odds & Ends
+
+
+1. Overview
+
+[NB. In common with some other programs, rubber
+banding, dotted lines and fills do not work on all computers 
+if the hardware acceleration is at the maximum.  If
+this is the case: turn down the acceleration :-
+Right click on My Computer - Properties -
+Performance - Graphics,  then lower hardware
+acceleration, Restart for it to take effect.]
+
+This is a pencil drawing programme with 256 shades
+of grey.
+
+To draw, select one of the 21 Tools from the main 
+long toolbar and a sub-Tool to the right of this, if
+there is one.
+
+Drawing instructions are shown on the menu-bar for
+each Tool.  LB/LC or RB/RC refer to the left and
+right mouse buttons respectively.  Each of the main
+Tools has an identifying Tool Tip text.
+
+Note that most of the tools can be tried while this help 
+screen is showing.
+
+Colors can be selected from the palette on the right of 
+the screen.
+
+All the standard picture formats can be opened but
+can only be saved as a BMP or JPG file. 
+
+2.  Tools
+
+	Most of the tools can be started with the left or
+	right button whence the final shape will take the
+	left or right color respectively.  All the tools
+	marked in blue, which is most of them, can be 
+	relocated before being fixed in position.  The 
+	others (Brush, AirBrush, Fill, Rubber, Smudge
+	Perspectuve Shear and Tile) remain as drawn.
+	
+	Where tools produce shaded lines the shading
+	goes from the right to the left color.
+	
+	2.1    Brush
+
+	This is a free drawing tool and has 15 types.
+	There are 4 line thicknesses of 1, 2, 4 & 8
+	pixels; 3 forward ribbons and 3 backward
+	ribbons of 2, 4 & 6 diagonal pixels.  The remaining
+	5 types consist of 3 stalks with drooping shoots,
+	upshoots & leaves and grasses and city blocks
+	with random elements up to 16 pixels.  Some of the
+	tools will draw with a single click but they are 
+	designed to be used with mouse_down.
+	
+	2.2    AirBrush
+
+	Here the 11 types can be used with a single
+	click or drawn continuously with mouse_down.
+	The 3 speckle types have random pixel radii up
+	to 2, 8 & 16 pixels.  Similarly there are 3 clumps 
+	of grass up to  4, 8 & 16 pixels and a flower
+	spray up to 16 pixels.  These are followed by
+	spaced bricks, slanted & horizontal tiles and
+	spaced slats.  The widths (mx) and heights (my)
+	of these last 4 shapes can be set in the AirBrush
+	frame. The slanted tiles have a line thickness of
+	2 pixels which allows Fill to change their color
+	(see Odds & Ends).
+	
+	2.3    Line, PolyLine, Spline
+
+	Line is the simplest 'rubber banded' tool.  Click the mouse
+	to start, move the mouse to locate the end, click again
+	and move the whole line to position and click to
+	finish.
+	
+	Line types apply to this tool and the following poly-
+	lines and splines.  They consist of 3 solid lines of 1,
+	2 & 4 pixels, double lines of spacing 2, 4 & 6, a
+	dotted line and shaded lines of width 6, 12 & 18
+	pixels.  
+
+	PolyLine
+
+	Continuously connected straight line segments
+	separated by left clicks and right click to end.
+	Types as Line types PLUS parallelogram, frustrum
+	and auto-join to first point. These extras have a line 
+	thickness of 1 pixel and could be used as markers
+	for the other thicker or shaded polylines.
+
+	 Spline
+
+	Continuously curved line again each part
+	separated by left clicks and terminated by
+	a right click as with the polyline.
+
+	2.4    Rectangle
+
+	This is started by left or right click, rubber
+	banding with the mouse and click to end
+	then move to position, click to fix.
+
+	Here the tool types are the same as the line
+	types down to the dotted line but the shading
+	is over the whole drawn shape.  This can be
+	horizontal, vertical or concentric shading.
+	These types apply to the following cirlipses,
+	cones, tubes and arches.
+	
+	2.5    Cirlipse, Cone, Tube,  Arch
+
+	Cirlipse means circle or ellipse, these are
+	center based but as with other shapes can
+	be postioned after the shape is drawn.
+	Types the same as for the rectangle.
+
+	Cone
+
+	This shape starts with a circle then at left click
+	a 'rubber band' line is drawn from the center of 
+	the circle along the axis of the cone.  At the next
+	click the whole shape can be positioned and at the
+	last click the cone is drawn.  Types are as the
+	rectangle.
+
+	Tube
+
+	Drawing is identical to the cone except that the
+	final shape is a tube.
+
+	Arch
+
+	Drawing for this is as the rectangle except that
+	an upward semi-circle sits on the rectangle.  Note 
+	however that the semi-circle position depends on
+	how the mouse is moved when the shape is drawn.
+	With downward mouse movement the semi-circle 
+	sits on top of the rectangle whereas with upward
+	movement is sits on the base and inside the rectangle.
+	With right to left upward movement shading may not
+	take place.  But this has been left because it allows 
+	shaded sphere segments if the movement is not too
+	great.
+
+	2.6    T-piece
+
+	The drawing action is the same as with the rectangle.
+	There are 2 types of T-piece, parallel lines with one
+	side line and cross parallel lines.  Note that this tool
+	takes its settings from the line types apart from shading.
+	Its great for street maps.
+
+	2.7    Text
+
+	This brings up a separate input box, from which font
+	types, sizes and rotation can be selected.  Only a single
+	line of text is catered for.  When finished clicking on the
+	picture moves the text to that point from which it can be
+	positioned.  Note that not all fonts can be rotated.
+
+	2.8    Fill
+
+	This fill works by continuing to fill while surrounded by
+	the color it started with.  Thus it will fill to a boundary
+	of any different color.  There are the 7 standard fill types
+	plus 9 derived ones.  You can replace these by changing
+	the SetBitArray routine in VB.  However its rather limited
+	since the repetitive pattern can only be 8 x 8 pixels.  Pixel
+	colors can be changed by selecting the color wanted and
+	clicking on the pixels with the Solid Fill.
+	
+	2.9    Rubber
+
+	The rubber size can be 2x2, 4x4 or 8x8 pixels.  It can be
+	clicked on and off on the picture and rubbing out is done
+	by moving the mouse with the buttons up.  The rub-out
+	color is the 'right' color.  Alternatively the picture can be
+	rubbed out in the Active Rectangle (see next).
+
+	2.10  Active rectangle
+
+	This is drawn exactly as with the rectangle.  It is in fact a
+	shape control and does not form part of the picture.  It can
+	be used by Rubber & Smudge and is need by all the tools 
+	shown below after Smudge.
+	
+	2.11  Smudge
+
+	On clicking the picture with the smudge brush an average color,
+	based on color numbers of 4 adjacent pixels, is set over an 8x8 
+	rectangle.  Averaging over color numbers is OK for smoothly 
+	graduated palettes.  Alternatively smudging can be done over
+	an Active Rectangle.
+	
+	2.12  Move, Copy & Reflect
+
+	The image inside an Active Rectangle can be moved (original
+	wiped out), copied, reflected horizontally or vertically. 
+	
+	2.13  Resize, Perspective Shear, Rotate
+
+	Resizing takes place entirely within an Active Rectangle.  The
+	magnitude is a percentage and can be positive or negative. It is
+	set in the Resize and Rotation frame at the bottom left of the screen.
+	Note that with shrinking there is always a loss of detail with this 
+	tool and if the image expands outside the Active Rectangle that 
+	part is totally l.ost (but can Undo, see later).  Maximum resize 
+	amount is +/- 50%.
+	NB Larger values can be input but are reduced.
+	
+	Perspective Shear
+
+	By left clicking outside the Active Rectangle the image is stretched,
+	cone-like towards the mouse.  This tool can be used repeatedly until
+	it looks right.  Then right click fixes it.  It is not a true perspective
+	but usually looks OK.
+	
+	Rotate
+
+	The action is similar to Resize except the image rotates by plus or
+	minus degrees.  Positive rotates clockwise.  It only rotates once
+	and the image can then be re-positioned.  The original image can
+	be rubbed out or kept.  The Active Rectangle is cleared after each
+	rotation.  The maximum rotation amount is +/- 180 degrees.  
+	NB Only multiples of 90 degrees work well, multiples of 45 degrees
+	not too bad but other angles are very dependent on the amount of
+	detail wanted.
+	
+	2.14  Tile
+
+	With this the whole picture is tiled with the image in the Active
+	Rectangle.  Note, it can be undone with the Undo Last button,
+	see below.
+	
+	
+3.  Operations
+
+	3.1   Undo Last
+
+	There is just one storage picture-box and hence only one level
+	of Undo.  
+
+	3.2   Clear picture
+
+	Clears the picture to the 'right color', after questioning.
+
+	3.3   Hair lines, Perspective lines & points
+
+	Plus and X hair lines can be toggled by pressing the appropriate
+	buttons.
+
+	Perspective lines & points
+
+	Proper perspective always goes to one or more vanishing points
+	(VPs) on a horizontal line.  Up to 3 VP's can be set on any horizontal
+	line whose location is set by the first VP.  When drawing, faint dotted
+	hair-lines go from the mouse to the VPs on the horizontal line.
+
+	3.4   AirBrush bricks & tiles
+
+	As mentioned above the width (mx) and height (my) of the 4
+	shapes shown red on the AirBrush types, can be varied.  The
+	effect will need some trial and error because it is the dimensions
+	of a repeat pattern.  Also, so that the elements connect properly,
+	the start points are at fixed screen locations.  This means that 
+	they will not usually start at exactly the mouse postion.  The
+	orientation of the slanted tiles can be changed by altering the
+	sign of  'my' or 'mx'.
+
+	3.5   Zoom
+	
+	Zoom allows individual pixels to be easily set or cleared.  Also
+	an accurate Active Rectangle can be drawn.  Up to 13 Zoom 
+	sizes can be set with the up-down control in the Zoom frame.
+	After clicking the Zoom button the Zoom box is brought up by
+	clicking on the picture.  The box will appear to the right or left
+	of the screen.  This means that as pixels are set or cleared their
+	appearance will also show on the full-size picture  To Zoom 
+	again, on a part of the picture under the Zoom box, click just
+	to the right of the middle of the picture and then on the place to
+	be zoomed. When the Active Rectangle button is toggled, in
+	the Zoom frame, only an Active  Rectangle can be drawn in 
+	the Zoom box.
+	
+	3.6   Scroller, Canvas Size
+
+	The picture can be scrolled, within the picture box, in all 4
+	directions in increments of up to 50 pixels.  This amount
+	can be set in the Scroll picture frame.  The scrolling is actually
+	a rotation so that pixels go off one side of the picture box
+	and come back on the the opposite side.  Generally this is
+	most used for centering the picture.  Draw a shape on the
+	left of the picture and try it now!
+
+	Canvas Size
+
+	The vertical size of the canvas picture box, can be 520
+	or 720 pixels.  The width is fixed at 600 pixels, appropriate
+	for an A4 sheet.
+
+	3.7   Reset
+
+	If things get stuck for some reason then the Reset button at
+	the bottom right of the screen usually frees things.
+
+
+4.  Loading & Saving
+
+	All the standard picture formats can be opened but can only 
+	be saved as a BMP or JPG file.  
+
+	4.1  Load  or  Add a picture file
+	
+	Load a bmp, jpg, gif, wmf or emf file. This can then be kept 
+	or discarded.
+
+	Add picture file
+	
+	Adds a bmp, jpg, gif, wmf or emf file. These can also be kept
+	or discarded or repositioned after loading.  When adding, 
+	wmf & emf files are squeezed into 100 x 100 pixels.
+
+	4.2  Save as BMP or JPG
+	
+	Saves in the same format as loaded. This may be 24-bit and will
+	be a large file.	
+
+	Save as JPG
+	
+	This is the best form for saving.  JPG saving makes use of 
+	 i_view32.exe which must be in the application's folder.  
+	This is the only piece of freeware I've been able to find that 
+	converts from BMP to JPG from a command line and is 
+	hence easily used in VB programs.  
+	The source files and credits for this are in the included.
+
+	4.3  Save rectangle as BMP
+	
+	This saves the picture in the Active Rectangle  in 8-bit format.
+	If a non-grey picture has been loaded it will be converted to 
+	grey-scale.  Since this is done in VB code it will be a bit slow
+	for large rectangles
+
+5.  Printing
+
+	Printing can be done from the program.  It uses the  same
+	 i_view32.exe software as for saving jpegs but with a different
+	command line.  If more flexibility ( page set up and the like) is
+	required then this will have to be done off-line using MS Paint
+	or whatever.
+
+6.  Colors
+
+	Colors for the left and right buttons are set  by left or right 
+	clicking on the grey palette on the right of the screen.  
+	Currently selected  colors and color numbers (0 - 255) are 
+	shown.  When no operation is in progress, color  information 
+	from the picture,  under the cursor hot spot, is also shown.
+
+7.  Odds & Ends
+
+	If you don't like the cursor change it to MousePointer = vbDefault
+	at  Sub MouseTArr or design a better one.
+	
+	In Filling shapes Fill will not cross diagonals.  So if you want to 
+	exactly fill a shape with the AirBrush bricks or tiles do:-
+	select a color number (c1 say) for the bricks and draw them 
+	larger than the shape you want.  Now draw the shape over the 
+	bricks but with a different color (say c2). Draw any shape outside
+	all the bricks in color c2.  Overhanging bricks now lay between
+	the two shapes.  Now select the Fill tool and set the color to c1. 
+	Fill between the two shapes, select the color you want for 
+	background and fill again between the shapes.  Finally fill the
+	outer shape with the same color leaving the shape you want
+	filled with bricks. It helps if the outer shape has thick lines.  The
+	logic here is also the reason why slanted tiles are drawn with a
+	thickness of 2 pixels.
+	
+	This help file can be editted in NotePad.  But for the search-to-line
+	to work make sure that the contents lines are exactly the same as
+	the header lines apart from the  #  at the beginning of the contents
+	line.  The search uses the SendMessage API.
+	
+	Additional files that must be in the application's folder are:
+	RRPencil.txt    this help file
+	i_view32.exe   and
+	t.cur
+
+
+
